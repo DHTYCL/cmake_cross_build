@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aitian/project/cmake_test/main.cpp" "/home/aitian/project/cmake_test/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/aitian/project/cross_build/main.cpp" "/home/aitian/project/cross_build/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

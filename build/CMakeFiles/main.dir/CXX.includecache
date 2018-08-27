@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/aitian/project/cmake_test/main.cpp
+/home/aitian/project/cross_build/main.cpp
 iostream
 -
 

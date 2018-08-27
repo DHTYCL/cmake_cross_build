@@ -1,1 +1,1 @@
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++  -fPIC   -shared -Wl,-soname,libmain.so -o libmain.so CMakeFiles/main.dir/main.cpp.o 
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      CMakeFiles/main.dir/main.cpp.o  -o main -rdynamic 

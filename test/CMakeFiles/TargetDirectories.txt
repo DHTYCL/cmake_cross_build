@@ -1,3 +1,0 @@
-/home/aitian/project/cmake_test/test/CMakeFiles/edit_cache.dir
-/home/aitian/project/cmake_test/test/CMakeFiles/rebuild_cache.dir
-/home/aitian/project/cmake_test/test/CMakeFiles/test.dir

@@ -19,5 +19,6 @@
 # configure Boost and Qt
 #SET(QT_QMAKE_EXECUTABLE /opt/qt-embedded/qmake)
 #SET(BOOST_ROOT /opt/boost_arm)
-add_library(main SHARED main.cpp)
+#add_library(main SHARED main.cpp)
 #target_link_libraries(main test)
+add_executable(main main.cpp)

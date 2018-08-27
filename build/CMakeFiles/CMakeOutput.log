@@ -1,7 +1,7 @@
 The target system is: Linux - 1 - 
-The host system is: Linux - 4.4.0-133-generic - x86_64
+The host system is: Linux - 4.4.0-134-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc 
+Compiler: /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc 
 Build flags: 
 Id flags: 
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/aitian/project/cmake_test/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/aitian/project/cross_build/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++ 
+Compiler: /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++ 
 Build flags: 
 Id flags: 
 
@@ -24,72 +24,72 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/aitian/project/cmake_test/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/aitian/project/cross_build/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e56a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e56a.dir/build.make CMakeFiles/cmTC_8e56a.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e56a.dir/testCCompiler.c.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_8e56a.dir/testCCompiler.c.o   -c /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_8e56a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e56a.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_8e56a.dir/testCCompiler.c.o  -o cmTC_8e56a -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1301b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1301b.dir/build.make CMakeFiles/cmTC_1301b.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1301b.dir/testCCompiler.c.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_1301b.dir/testCCompiler.c.o   -c /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1301b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1301b.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_1301b.dir/testCCompiler.c.o  -o cmTC_1301b -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3bafa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3bafa.dir/build.make CMakeFiles/cmTC_3bafa.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_3bafa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bafa.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o  -o cmTC_3bafa -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_9223f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9223f.dir/build.make CMakeFiles/cmTC_9223f.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9223f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9223f.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o  -o cmTC_9223f -rdynamic  
 Using built-in specs.
-COLLECT_GCC=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc
-COLLECT_LTO_WRAPPER=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper
+COLLECT_GCC=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper
 Target: arm-linux-gnueabihf
 Configured with: /development/crosstools-ng/cortexA9/.build/src/gcc-linaro-4.9-2014.06-1/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9 --with-sysroot=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion='crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpc=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-isl=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-cloog=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-libelf=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --enable-multilib --with-local-prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb
 Thread model: posix
 gcc version 4.9.1 20140625 (prerelease) (crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06) 
-COMPILER_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3bafa' '-rdynamic' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu'
- /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3bafa /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9223f' '-rdynamic' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu'
+ /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_9223f /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3bafa/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3bafa.dir/build.make CMakeFiles/cmTC_3bafa.dir/build]
-  ignore line: [make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_3bafa]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bafa.dir/link.txt --verbose=1]
-  ignore line: [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o  -o cmTC_3bafa -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9223f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9223f.dir/build.make CMakeFiles/cmTC_9223f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9223f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9223f.dir/link.txt --verbose=1]
+  ignore line: [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o  -o cmTC_9223f -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper]
+  ignore line: [COLLECT_GCC=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: /development/crosstools-ng/cortexA9/.build/src/gcc-linaro-4.9-2014.06-1/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9 --with-sysroot=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion='crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpc=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-isl=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-cloog=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-libelf=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --enable-multilib --with-local-prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.9.1 20140625 (prerelease) (crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06) ]
-  ignore line: [COMPILER_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3bafa' '-rdynamic' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3bafa /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2] ==> ignore
-    arg [--sysroot=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc] ==> ignore
+  ignore line: [COMPILER_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9223f' '-rdynamic' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_9223f /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2] ==> ignore
+    arg [--sysroot=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-export-dynamic] ==> ignore
@@ -99,24 +99,24 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3bafa] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o] ==> ignore
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_3bafa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_9223f] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o] ==> ignore
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_9223f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -126,44 +126,44 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
   implicit libs: [c]
-  implicit dirs: [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1;/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
+  implicit dirs: [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5e6dd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5e6dd.dir/build.make CMakeFiles/cmTC_5e6dd.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5e6dd.dir/feature_tests.c.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc    -std=c11 -o CMakeFiles/cmTC_5e6dd.dir/feature_tests.c.o   -c /home/aitian/project/cmake_test/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_5e6dd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e6dd.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_5e6dd.dir/feature_tests.c.o  -o cmTC_5e6dd -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b0bf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0bf0.dir/build.make CMakeFiles/cmTC_b0bf0.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0bf0.dir/feature_tests.c.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc    -std=c11 -o CMakeFiles/cmTC_b0bf0.dir/feature_tests.c.o   -c /home/aitian/project/cross_build/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0bf0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0bf0.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_b0bf0.dir/feature_tests.c.o  -o cmTC_b0bf0 -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMa
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ab6ee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ab6ee.dir/build.make CMakeFiles/cmTC_ab6ee.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ab6ee.dir/feature_tests.c.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc    -std=c99 -o CMakeFiles/cmTC_ab6ee.dir/feature_tests.c.o   -c /home/aitian/project/cmake_test/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ab6ee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab6ee.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_ab6ee.dir/feature_tests.c.o  -o cmTC_ab6ee -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_48ad3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48ad3.dir/build.make CMakeFiles/cmTC_48ad3.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48ad3.dir/feature_tests.c.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc    -std=c99 -o CMakeFiles/cmTC_48ad3.dir/feature_tests.c.o   -c /home/aitian/project/cross_build/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48ad3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ad3.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_48ad3.dir/feature_tests.c.o  -o cmTC_48ad3 -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMa
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d6703/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d6703.dir/build.make CMakeFiles/cmTC_d6703.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6703.dir/feature_tests.c.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc    -std=c90 -o CMakeFiles/cmTC_d6703.dir/feature_tests.c.o   -c /home/aitian/project/cmake_test/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d6703
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6703.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_d6703.dir/feature_tests.c.o  -o cmTC_d6703 -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_93623/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93623.dir/build.make CMakeFiles/cmTC_93623.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93623.dir/feature_tests.c.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc    -std=c90 -o CMakeFiles/cmTC_93623.dir/feature_tests.c.o   -c /home/aitian/project/cross_build/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_93623
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93623.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_93623.dir/feature_tests.c.o  -o cmTC_93623 -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,69 +211,69 @@ make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMa
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fa117/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fa117.dir/build.make CMakeFiles/cmTC_fa117.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fa117.dir/testCXXCompiler.cxx.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_fa117.dir/testCXXCompiler.cxx.o -c /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_fa117
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa117.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_fa117.dir/testCXXCompiler.cxx.o  -o cmTC_fa117 -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_de1c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de1c1.dir/build.make CMakeFiles/cmTC_de1c1.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de1c1.dir/testCXXCompiler.cxx.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_de1c1.dir/testCXXCompiler.cxx.o -c /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_de1c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de1c1.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_de1c1.dir/testCXXCompiler.cxx.o  -o cmTC_de1c1 -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bedd2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bedd2.dir/build.make CMakeFiles/cmTC_bedd2.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_bedd2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bedd2.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bedd2 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_68bda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68bda.dir/build.make CMakeFiles/cmTC_68bda.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_68bda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68bda.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_68bda -rdynamic  
 Using built-in specs.
-COLLECT_GCC=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++
-COLLECT_LTO_WRAPPER=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper
+COLLECT_GCC=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper
 Target: arm-linux-gnueabihf
 Configured with: /development/crosstools-ng/cortexA9/.build/src/gcc-linaro-4.9-2014.06-1/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9 --with-sysroot=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion='crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpc=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-isl=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-cloog=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-libelf=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --enable-multilib --with-local-prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb
 Thread model: posix
 gcc version 4.9.1 20140625 (prerelease) (crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06) 
-COMPILER_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bedd2' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu'
- /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_bedd2 /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68bda' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu'
+ /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_68bda /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bedd2/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bedd2.dir/build.make CMakeFiles/cmTC_bedd2.dir/build]
-  ignore line: [make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_bedd2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bedd2.dir/link.txt --verbose=1]
-  ignore line: [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bedd2 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68bda/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68bda.dir/build.make CMakeFiles/cmTC_68bda.dir/build]
+  ignore line: [make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++      -o CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_68bda]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68bda.dir/link.txt --verbose=1]
+  ignore line: [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++       -v CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_68bda -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper]
+  ignore line: [COLLECT_GCC=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: /development/crosstools-ng/cortexA9/.build/src/gcc-linaro-4.9-2014.06-1/configure --build=x86_64-build_unknown-linux-gnu --host=x86_64-build_unknown-linux-gnu --target=arm-linux-gnueabihf --prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9 --with-sysroot=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-languages=c,c++ --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3 --with-float=hard --with-pkgversion='crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-mpc=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-isl=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-cloog=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-libelf=/development/crosstools-ng/cortexA9/.build/arm-linux-gnueabihf/buildtools --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++ -lm' --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --enable-multilib --with-local-prefix=/development/crosstools-ng/cortexA9/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.9.1 20140625 (prerelease) (crosstool-NG - Ambarella Linaro Multilib GCC [CortexA9 & ARMv6k] 2014.06) ]
-  ignore line: [COMPILER_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bedd2' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu']
-  link line: [ /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_bedd2 /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2] ==> ignore
-    arg [--sysroot=/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc] ==> ignore
+  ignore line: [COMPILER_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/:/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68bda' '-rdynamic' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2 --sysroot=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_68bda /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib -L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o /home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2] ==> ignore
+    arg [--sysroot=/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-export-dynamic] ==> ignore
@@ -283,24 +283,24 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bedd2] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o] ==> ignore
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib]
-    arg [-L/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_bedd2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_68bda] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o] ==> ignore
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [-L/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_68bda.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -308,44 +308,44 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o] ==> ignore
-    arg [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o] ==> ignore
+    arg [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
-  collapse library dir [/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
+  collapse library dir [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1;/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/lib/gcc;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf;/home/aitian/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
+  implicit dirs: [/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf/4.9.1;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/lib/gcc;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/lib;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/lib;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf;/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/arm-linux-gnueabihf/libc/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f863a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f863a.dir/build.make CMakeFiles/cmTC_f863a.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f863a.dir/feature_tests.cxx.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++     -std=c++14 -o CMakeFiles/cmTC_f863a.dir/feature_tests.cxx.o -c /home/aitian/project/cmake_test/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f863a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f863a.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_f863a.dir/feature_tests.cxx.o  -o cmTC_f863a -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_61a41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61a41.dir/build.make CMakeFiles/cmTC_61a41.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61a41.dir/feature_tests.cxx.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++     -std=c++14 -o CMakeFiles/cmTC_61a41.dir/feature_tests.cxx.o -c /home/aitian/project/cross_build/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_61a41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a41.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_61a41.dir/feature_tests.cxx.o  -o cmTC_61a41 -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -408,17 +408,17 @@ make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMa
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_647fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_647fb.dir/build.make CMakeFiles/cmTC_647fb.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_647fb.dir/feature_tests.cxx.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++     -std=c++11 -o CMakeFiles/cmTC_647fb.dir/feature_tests.cxx.o -c /home/aitian/project/cmake_test/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_647fb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_647fb.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_647fb.dir/feature_tests.cxx.o  -o cmTC_647fb -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e031f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e031f.dir/build.make CMakeFiles/cmTC_e031f.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e031f.dir/feature_tests.cxx.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++     -std=c++11 -o CMakeFiles/cmTC_e031f.dir/feature_tests.cxx.o -c /home/aitian/project/cross_build/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e031f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e031f.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_e031f.dir/feature_tests.cxx.o  -o cmTC_e031f -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -481,17 +481,17 @@ make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMa
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp
+Change Dir: /home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8270f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8270f.dir/build.make CMakeFiles/cmTC_8270f.dir/build
-make[1]: Entering directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8270f.dir/feature_tests.cxx.o
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++     -std=c++98 -o CMakeFiles/cmTC_8270f.dir/feature_tests.cxx.o -c /home/aitian/project/cmake_test/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8270f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8270f.dir/link.txt --verbose=1
-/home/aitian/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_8270f.dir/feature_tests.cxx.o  -o cmTC_8270f -rdynamic 
-make[1]: Leaving directory '/home/aitian/project/cmake_test/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a74cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a74cc.dir/build.make CMakeFiles/cmTC_a74cc.dir/build
+make[1]: Entering directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a74cc.dir/feature_tests.cxx.o
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++     -std=c++98 -o CMakeFiles/cmTC_a74cc.dir/feature_tests.cxx.o -c /home/aitian/project/cross_build/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a74cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a74cc.dir/link.txt --verbose=1
+/home/aitian/project/cross_build/linaro-multilib-2014.06-gcc4.9/bin/arm-linux-gnueabihf-g++        CMakeFiles/cmTC_a74cc.dir/feature_tests.cxx.o  -o cmTC_a74cc -rdynamic 
+make[1]: Leaving directory '/home/aitian/project/cross_build/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
