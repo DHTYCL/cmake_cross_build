@@ -1,5 +1,6 @@
 # cmake_cross_build
 cmake build source code into  library based on arm
+
 1.cd cmake_cross_build
 
 2.mkdir build
